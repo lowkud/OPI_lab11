@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title> 9-10 лаба </title>
+</head>
+<body id = "mybody">
+    <p>
+        <img id="myimg" src = "Images/image.jpg">
+        <textarea id="textA"> Ильюха Линуксоид </textarea>
+    </p>
+    <p>
+        Движение по прямой
+        <img id="moveForward" src = "Images/image.jpg">
+    </p>
+    <p>
+        Движение по кривой
+        <img id="moveCurved" src = "Images/image.jpg">
+    </p>
+<p> Выберите график функции: </p>
+<p> 
+    <input type="radio" name="function" value="y = x^2"> y = x^2
+    <input type="radio" name="function" value="y = x^3"> y = x^3
+    <input type="radio" name="function" value="y = sin(x)"> y = sin(x)
+    <input type="radio" name="function" value="y = cos(x)"> y = cos(x)
+</p> 
+<p>
+    Выберите способ прорисовки:
+    <input type="radio" name="drawFunc" value="1"> статичная
+    <input type="radio" name="drawFunc" value="2"> в реальном времени
+</p>
+<p>
+    <button id="Draw"> Нарисовать функцию </button>
+</p>
+<p>
+    Выберите цвет графика
+    <select id="colorOfF">
+        <option value="black"> черный </option>
+        <option value="red"> красный </option>
+        <option value="blue"> синий </option>
+    </select>
+</p>
+</body>
+<script src="Lab9.10.js"></script>
+</html>
